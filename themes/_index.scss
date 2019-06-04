@@ -1,0 +1,18 @@
+/*
+ *
+ * En sitios/aplicaciones grandes es usual tener distintos temas o 
+ * themes implementados. Hay diferentes caminos para lidiar con ese
+ * problema, sin embargo uno de los más sencillos, a mi parecer, sería
+ * tener cada theme dentro de su carpeta.
+ * 
+ * Nota:
+ * La creación de esta carpeta es muy específica a cada proyecto, 
+ * probablemente la mayoría de los sitio/aplicaciones no la necesitarán.
+ *
+ * @author Cristóbal Domínguez <cristobald@me.com>
+ * @since 1.0
+ *
+ */
+
+@import 'theme';
+@import 'admin';

@@ -1,0 +1,21 @@
+/*
+ *
+ * Este archivo contiene las referencias del código boilerplate de tu proyecto.
+ * Aquí podrás encontrar referencias al archivo _reset.scss, a las tipografías
+ * y probablemente algún otro archivo de estilos que defina de una forma estándard
+ * los estilos de elementos usados en HTML.
+ *
+ *
+ * Nota: 
+ * Si tu proyecto usa muchas animaciones, deberías considerar agregar dentro de
+ * esta carpeta un archivo /_animations.scss que contenga las definiciones de los
+ * @keyframes de todas tus animaciones.
+ *
+ * @author Cristóbal Domínguez <cristobald@me.com>
+ * @since 1.0
+ *
+ */
+
+@import '_reset';
+@import '_typography';
+// @import '_animations';

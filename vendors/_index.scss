@@ -1,0 +1,15 @@
+/*
+ *
+ * La mayoría de los proyectos tienen una carpeta vendors/ que contiene
+ * todos los archivos CSS de librerías externas y frameworks – Normalize,
+ * Bootstrap, jQuery, jQueryUI, Flickity, Flexslider y así sucesivamente.
+ * Agregando estos en una carpeta aparte podría ser una buena forma de 
+ * decir: “Hey, esto no es mío, no es mi código, no es mi responsabilidad”.
+ *
+ * @author Cristóbal Domínguez <cristobald@me.com>
+ * @since 1.0
+ *
+ */
+
+@import 'bootstrap';
+@import 'jquery-ui';

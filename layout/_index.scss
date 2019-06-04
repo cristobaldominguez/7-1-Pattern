@@ -1,0 +1,23 @@
+/*
+ *
+ * Esta carpeta contiene todo lo que hace relación con el sitio web o la aplicación.
+ * Aquí encontrarás los estilos para las partes principales del sitio (header, footer, 
+ * navigation, sidebar, etc), el sistema de grillas o incluso los estilos de los formularios
+ *
+ *
+ * Nota:
+ * La carpeta layout/ también podría ser llamada partials/, dependiendo de la 
+ * preferencia del desarrollador.
+ *
+ * @author Cristóbal Domínguez <cristobald@me.com>
+ * @since 1.0
+ *
+ */
+
+@import 'navigation';
+@import 'grid';
+@import 'header';
+@import 'footer';
+@import 'main';
+@import 'sidebar';
+@import 'forms';

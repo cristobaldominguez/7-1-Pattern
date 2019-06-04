@@ -1,0 +1,22 @@
+/*
+ * 
+ * Esta carpeta fue creada para componentes o módulos pequeños como por ejemplo: 
+ * sliders, loaders, widgets, etc. A diferencia de la carpeta layout/ donde almacenaremos
+ * los componentes que definan el wireframe del sitio/aplicación, aquí encontraremos
+ * componentes que aportarán más contenido que una estructura visual.
+ * 
+ * Usualmente deberían haber muchos archivos en components/ debido a que los 
+ * sitios/aplicaciones se empezaron a crear en base a pequeños módulos de código.
+ * 
+ * Nota:
+ * Esta carpeta también se podría llamar modules/, dependiendo de cómo tu la prefieras.
+ *
+ * @author Cristóbal Domínguez <cristobald@me.com>
+ * @since 1.0
+ *
+ */
+
+@import 'buttons';
+@import 'carousel';
+@import 'cover';
+@import 'dropdown';

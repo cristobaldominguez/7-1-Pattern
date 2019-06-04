@@ -1,0 +1,18 @@
+/*
+ *
+ * Si prefieres estilos de páginas específicas, es mejor ponerlos en la carpeta pages/.
+ * Por cierto, es común tener estilos muy específicos para cada página, como por ejemplo:
+ * home, de ahí la necesidad de crear un archivo _home.scss dentro de pages/.
+ * 
+ * Nota:
+ * Dependiendo del proceso de tu desarrollo, estos archivos podrían ser cargados de forma
+ * paralela al archivo de estilos principal, evitando juntarlos con los del estilo principal.
+ * Sin embargo es una decisión de cada uno o de cada proyecto.
+ *
+ * @author Cristóbal Domínguez <cristobald@me.com>
+ * @since 1.0
+ *
+ */
+
+@import 'home';
+@import 'contact';

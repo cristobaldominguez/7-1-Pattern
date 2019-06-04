@@ -1,0 +1,28 @@
+/*
+ *
+ * La carpeta abstracts/ reune todas las herramientas de SASS para el proyecto.
+ * Cada variable global, función, mixin o placeholder debería estar aquí dentro.
+ * 
+ * La regla de oro para esta carpeta es que no deberá imprimir ni una sola línea
+ * de código en el momento de la compilación del CSS. Nada como los helpers de Sass.
+ * 
+ * Cuando se trabaja en un proyecto muy grande con muchos archivos abstracts, podría
+ * ser más interesante agruparlos por tópicos en vez de por tipo. Un ejemplo sería
+ * crear las instancias typography (_typography.scss), theming (_theming.scss), etc.
+ * Cada archivo contendría todos los helpers relacionados a esa instancia: variables, 
+ * functions, mixins y placeholders. Hacerlo así podría hacer el código más sencillo de 
+ * de mantener, especialmente cuando los archivos empiezan a crecer mucho.
+ * 
+ * Nota:
+ * La carpeta abstracts/ podría llamarse utilities/ o helpers/, dependiendo de lo que
+ * se prefiera.
+ *
+ * @author Cristóbal Domínguez <cristobald@me.com>
+ * @since 1.0
+ *
+ */
+
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+@import 'placeholders';
